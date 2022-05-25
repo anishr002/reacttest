@@ -1,14 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { Cart } from './Components/Cart';
-import {useSelector,useDispatch} from "react-redux"
+import {Cart}  from './Components/Cart';
+// import { CartContainer } from './Components/CartContainer';
+// import {useSelector,useDispatch} from "react-redux"
 
 
 
 function App() {
   return (
     <>
-    <Cart/>
+    <Cart
+    />
     </>
   );
 }
